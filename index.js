@@ -174,12 +174,23 @@ historyTab.addEventListener("click", function () {
       'font-semibold'
       );
 
-   document.getElementById('donation-section').classList.add('hidden')   
-
+   document.getElementById('donation-section').classList.add('hidden');   
+   document.getElementById('history-section').classList.remove('hidden')
 })
 
 
+assistantTab.addEventListener('click', function(){
+  assistantTab.classList.add(
+    'bg-[rgb(180,244,97)]',
+    'font-semibold'
+    );
 
+    historyTab.classList.remove(
+      'bg-[rgb(180,244,97)]',
+      'font-semibold'
+      );
+    document.getElementById('donation-section').classList.remove('hidden'); 
+})
 
 
 
