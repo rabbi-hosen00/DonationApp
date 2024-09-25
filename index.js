@@ -190,6 +190,7 @@ assistantTab.addEventListener('click', function(){
       'font-semibold'
       );
     document.getElementById('donation-section').classList.remove('hidden'); 
+    document.getElementById('history-section').classList.add('hidden')
 })
 
 
